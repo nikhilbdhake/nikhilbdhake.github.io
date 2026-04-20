@@ -1,0 +1,80 @@
+# ===== OS =====
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# ===== Editors / IDEs =====
+# VS Code — keep shared workspace settings if you add them later, ignore personal ones
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# ===== Node / tooling (if you add a build step later) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+.yarn/
+
+# Build output
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# ===== Environment / secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Local dev servers / logs =====
+*.log
+logs/
+.serve/
+.vercel/
+.netlify/
+
+# ===== Misc =====
+*.bak
+*.tmp
+*.temp
